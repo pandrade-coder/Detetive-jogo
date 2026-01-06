@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operação Ícaro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Stardos+Stencil:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: #0a0a0a;
+        color: #eaddca;
+        font-family: 'Courier Prime', monospace;
+      }
+      .font-stencil {
+        font-family: 'Stardos Stencil', cursive;
+      }
+      .paper-texture {
+        background-image: url("https://www.transparenttextures.com/patterns/paper.png");
+      }
+      .confidential-watermark {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+        font-size: 2rem;
+        opacity: 0.1;
+        pointer-events: none;
+        white-space: nowrap;
+        font-weight: 900;
+        color: #8b0000;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
